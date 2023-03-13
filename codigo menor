@@ -1,0 +1,11 @@
+            if (button7.BackColor == Color.Gray)
+                button7.BackColor = Color.White;
+            else      
+                button7.BackColor = Color.Gray;
+
+            if (textBox7.Visible == false)
+                textBox7.Visible = true;
+            else                                 
+                textBox7.Visible = false;
+            if (textBox7.Visible == true)
+                textBox7.Text = "7";

@@ -1,0 +1,476 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Bingo
+{
+    public partial class MarcadorBingo : Form
+    {
+        public MarcadorBingo()
+        {
+            InitializeComponent();
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Top = 0;
+            this.Left = 0;
+            this.Width = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width;
+            this.Height = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height;
+        }
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            if (button1.BackColor == Color.Gray)
+                button1.BackColor = Color.White;
+            else
+                button1.BackColor = Color.Gray;
+
+            if (textBox1.Visible == false)
+                textBox1.Visible = true;
+            else
+                textBox1.Visible = false;
+            if (textBox1.Visible == true)
+                textBox1.Text = "1";
+
+        }
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            if (button2.BackColor == Color.Gray)
+                button2.BackColor = Color.White;
+            else
+                button2.BackColor = Color.Gray;
+
+            if (textBox2.Visible == false)
+                textBox2.Visible = true;
+            else
+                textBox2.Visible = false;
+            if (textBox2.Visible == true)
+                textBox2.Text = "2";
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            if (button3.BackColor == Color.Gray)
+                button3.BackColor = Color.White;
+            else
+                button3.BackColor = Color.Gray;
+
+            if (textBox3.Visible == false)
+                textBox3.Visible = true;
+            else
+                textBox3.Visible = false;
+            if (textBox3.Visible == true)
+                textBox3.Text = "3";
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            if (button4.BackColor == Color.Gray)
+                button4.BackColor = Color.White;
+            else
+                button4.BackColor = Color.Gray;
+
+            if (textBox4.Visible == false)
+                textBox4.Visible = true;
+            else
+                textBox4.Visible = false;
+            if (textBox4.Visible == true)
+                textBox4.Text = "4";
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            if (button5.BackColor == Color.Gray)
+                button5.BackColor = Color.White;
+            else
+                button5.BackColor = Color.Gray;
+
+            if (textBox5.Visible == false)
+                textBox5.Visible = true;
+            else
+                textBox5.Visible = false;
+            if (textBox5.Visible == true)
+                textBox5.Text = "5";
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            if (button6.BackColor == Color.Gray)
+                button6.BackColor = Color.White;
+            else
+                button6.BackColor = Color.Gray;
+
+            if (textBox6.Visible == false)
+                textBox6.Visible = true;
+            else
+                textBox6.Visible = false;
+            if (textBox6.Visible == true)
+                textBox6.Text = "6";
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            if (button7.BackColor == Color.Gray)
+                button7.BackColor = Color.White;
+            else
+                button7.BackColor = Color.Gray;
+
+            if (textBox7.Visible == false)
+                textBox7.Visible = true;
+            else
+                textBox7.Visible = false;
+            if (textBox7.Visible == true)
+                textBox7.Text = "7";
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button30_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button32_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button33_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button34_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button35_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button37_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button39_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button40_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button41_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button42_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button44_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button45_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button46_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button47_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button48_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button49_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button50_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button51_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button52_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button53_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button54_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button55_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button56_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button57_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button58_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button59_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Button60_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Button61_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button62_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button63_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button64_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button65_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button66_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button67_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button68_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button69_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void Button70_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void Button71_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button72_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button73_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button74_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button75_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MarcadorBingo_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
